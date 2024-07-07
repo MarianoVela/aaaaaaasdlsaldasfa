@@ -1,0 +1,1 @@
+Buenas Nucba y Nelson, ahi va mi primera Landing page sobre una pagina de citas porque la verdad que no se me ocurria ninguna idea, surgio esta idea de la nada como una joda y me gusto la idea y creo que quedo linda asique ahi va, nos vemos gracias!

@@ -1,0 +1,370 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-image: url(./Imgs/pareja-personas.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.inicio {
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 1600px;
+  color: transparent;
+  background: #f12711; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #f5af19,
+    #f12711
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #f5af19,
+    #f12711
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-clip: text;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.descripcion {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 900px;
+  color: transparent;
+  background: #ffefba; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #ffffff,
+    #ffefba
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #ffffff,
+    #ffefba
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-clip: text;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 1200;
+  font-size: 30px;
+}
+
+.heros {
+  display: flex;
+  max-width: 1600px;
+  justify-content: center;
+  padding: 30px;
+  gap: 40px;
+}
+
+.contenedor {
+  width: 300px;
+  height: 280px;
+  background: #c31432; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #240b36,
+    #c31432
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #240b36be,
+    #c31431c7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: -1px -14px 31px 6px rgba(255, 94, 94, 0.69);
+  -webkit-box-shadow: -1px -14px 31px 6px rgba(255, 94, 94, 0.69);
+  -moz-box-shadow: -1px -14px 31px 6px rgba(255, 94, 94, 0.69);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.contenedor-tit {
+  font-size: 28px;
+  color: rgb(161, 135, 222);
+}
+
+.contenedor-p {
+  color: transparent;
+  background: #ffefba; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #ffffff,
+    #ffefba
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ffffff,
+    #ffefba
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-clip: text;
+}
+
+.stores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+}
+
+.apple {
+  max-width: 150px;
+  border-radius: 40px;
+}
+
+.google {
+  max-width: 200px;
+  border-radius: 40px;
+}
+
+.contacto {
+  padding: 60px;
+  gap: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  max-width: 1600px;
+  background: linear-gradient(to top to left, #1f1c18, #e01600c4);
+  box-shadow: -1px -14px 31px 6px rgba(255, 94, 94, 0.69);
+  -webkit-box-shadow: -1px -14px 31px 6px rgba(255, 94, 94, 0.69);
+  -moz-box-shadow: -1px -14px 31px 6px rgba(255, 94, 94, 0.69);
+}
+
+.tarjetas {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: center;
+  max-width: 800px;
+  gap: 40px;
+}
+
+.contact {
+  display: flex;
+  color: transparent;
+  background: #ee0979; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #ff6a00,
+    #ee0979
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ff6a00,
+    #ee0979
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-clip: text;
+  padding: 20px;
+  font-size: 45px;
+}
+
+.contactos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 150px;
+  font-size: x-large;
+  color: #ff7818;
+}
+
+.contactos-d {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: medium;
+  font-weight: 30px;
+  max-width: 250px;
+  color: transparent;
+  background: #ffefba; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #ffffff,
+    #ffefba
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ffffff,
+    #ffefba
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-clip: text;
+}
+
+.gmail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(10, 6, 255);
+  cursor: pointer;
+}
+
+.pareja {
+  display: flex;
+  justify-content: center;
+  border-radius: 40px;
+  max-width: 900px;
+}
+
+.redes {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.foot {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/* ==================================KEY-FRAMES========================================= */
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes up {
+  from {
+    transform: translateY(100px);
+  }
+
+  to {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes s-right {
+  from {
+    transform: translateX(100px);
+  }
+
+  to {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes s-left {
+  from {
+    transform: translateX(-100px);
+  }
+
+  to {
+    transform: translateX(0px);
+  }
+}
+
+.inicio,
+.descripcion {
+  animation: slide-up 1.5s, up 1.5s ease-in-out;
+}
+
+.heros,
+.stores {
+  animation: slide-up 2s forwards, up 2s;
+}
+
+.stores {
+  opacity: 0;
+  animation-delay: 2.5s;
+}
+
+.contenedor {
+  animation: slide-up 2s forwards, up 2s forwards;
+}
+
+.contenedor:nth-child(1) {
+  opacity: 0;
+  animation-delay: 1s;
+}
+
+.contenedor:nth-child(2) {
+  opacity: 0;
+  animation-delay: 1.5s;
+}
+
+.contenedor:nth-child(3) {
+  opacity: 0;
+  animation-delay: 2s;
+}
+
+.pareja {
+  animation: slide-up 5s, s-right 5s;
+}
+
+.tarjetas {
+  animation: slide-up 5s, s-left 5s;
+}
+
+.stores {
+  transition: all 0.6s;
+}
+
+.stores:hover {
+  transform: scale(1.1);
+}
+
+.redes {
+  transition: all 0.5s;
+}
+
+.redes:hover {
+  transform: scale(1.1);
+}
+
+/* =========================================================================== */
+/* ==================================MEDIAQUERIES=================================== */
+/* =========================================================================== */
+
+@media (max-width: 1400px) {
+  .pareja {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .pareja {
+    width: 100%;
+  }
+
+  .heros {
+    flex-wrap: wrap;
+  }
+}
